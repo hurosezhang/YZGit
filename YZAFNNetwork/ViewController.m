@@ -19,7 +19,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
 //    [self nsurlesession];
-    
     [self afnnetwork];
 }
 - (void)afnnetwork
