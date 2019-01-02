@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2984E7AEEDB58E632A4C78A2 /* libPods-YZAFNNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A88C6285CAC2F36C168003F8 /* libPods-YZAFNNetwork.a */; };
 		7E42B52021DCE5A800836916 /* dev2MergeMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42B51F21DCE5A800836916 /* dev2MergeMaster.m */; };
+		7E42B52421DCE9BA00836916 /* otherUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42B52321DCE9BA00836916 /* otherUtils.m */; };
 		7ED6EBB921A553D4005F030A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBB821A553D4005F030A /* AppDelegate.m */; };
 		7ED6EBBC21A553D4005F030A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBBB21A553D4005F030A /* ViewController.m */; };
 		7ED6EBBF21A553D4005F030A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6EBBD21A553D4005F030A /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		5191E39BCD02EC4BEF5A4696 /* Pods-YZAFNNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZAFNNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZAFNNetwork/Pods-YZAFNNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		7E42B51E21DCE5A800836916 /* dev2MergeMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dev2MergeMaster.h; sourceTree = "<group>"; };
 		7E42B51F21DCE5A800836916 /* dev2MergeMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dev2MergeMaster.m; sourceTree = "<group>"; };
+		7E42B52221DCE9BA00836916 /* otherUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = otherUtils.h; sourceTree = "<group>"; };
+		7E42B52321DCE9BA00836916 /* otherUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = otherUtils.m; sourceTree = "<group>"; };
 		7ED6EBB421A553D4005F030A /* YZAFNNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAFNNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED6EBB721A553D4005F030A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ED6EBB821A553D4005F030A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 		7E42B52121DCE89000836916 /* otherUtils */ = {
 			isa = PBXGroup;
 			children = (
+				7E42B52221DCE9BA00836916 /* otherUtils.h */,
+				7E42B52321DCE9BA00836916 /* otherUtils.m */,
 			);
 			path = otherUtils;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				7ED6EBBC21A553D4005F030A /* ViewController.m in Sources */,
 				7ED6EBC721A553D7005F030A /* main.m in Sources */,
 				7ED6EBB921A553D4005F030A /* AppDelegate.m in Sources */,
+				7E42B52421DCE9BA00836916 /* otherUtils.m in Sources */,
 				7E42B52021DCE5A800836916 /* dev2MergeMaster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
