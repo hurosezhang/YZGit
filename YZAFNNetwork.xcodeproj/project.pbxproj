@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2984E7AEEDB58E632A4C78A2 /* libPods-YZAFNNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A88C6285CAC2F36C168003F8 /* libPods-YZAFNNetwork.a */; };
-		7E42B51321DCE2FF00836916 /* dev2MergeMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42B51221DCE2FF00836916 /* dev2MergeMaster.m */; };
+		7E42B52021DCE5A800836916 /* dev2MergeMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E42B51F21DCE5A800836916 /* dev2MergeMaster.m */; };
 		7ED6EBB921A553D4005F030A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBB821A553D4005F030A /* AppDelegate.m */; };
 		7ED6EBBC21A553D4005F030A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBBB21A553D4005F030A /* ViewController.m */; };
 		7ED6EBBF21A553D4005F030A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6EBBD21A553D4005F030A /* Main.storyboard */; };
@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		5191E39BCD02EC4BEF5A4696 /* Pods-YZAFNNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZAFNNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZAFNNetwork/Pods-YZAFNNetwork.release.xcconfig"; sourceTree = "<group>"; };
-		7E42B51121DCE2FF00836916 /* dev2MergeMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dev2MergeMaster.h; sourceTree = "<group>"; };
-		7E42B51221DCE2FF00836916 /* dev2MergeMaster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dev2MergeMaster.m; sourceTree = "<group>"; };
+		7E42B51E21DCE5A800836916 /* dev2MergeMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dev2MergeMaster.h; sourceTree = "<group>"; };
+		7E42B51F21DCE5A800836916 /* dev2MergeMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dev2MergeMaster.m; sourceTree = "<group>"; };
 		7ED6EBB421A553D4005F030A /* YZAFNNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAFNNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED6EBB721A553D4005F030A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ED6EBB821A553D4005F030A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,11 +94,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7E42B51021DCE2D800836916 /* dev2mergeMaster */ = {
+		7E42B51421DCE58900836916 /* NetWorks(网络接口) */ = {
 			isa = PBXGroup;
 			children = (
-				7E42B51121DCE2FF00836916 /* dev2MergeMaster.h */,
-				7E42B51221DCE2FF00836916 /* dev2MergeMaster.m */,
+			);
+			path = "NetWorks(网络接口)";
+			sourceTree = "<group>";
+		};
+		7E42B51521DCE58900836916 /* Macros(宏定义头文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Macros(宏定义头文件)";
+			sourceTree = "<group>";
+		};
+		7E42B51621DCE58900836916 /* Main(主要功能) */ = {
+			isa = PBXGroup;
+			children = (
+				7E42B51721DCE58900836916 /* Base(基类) */,
+				7E42B51821DCE58900836916 /* Login(登录) */,
+				7E42B51921DCE58900836916 /* ModuleX */,
+			);
+			path = "Main(主要功能)";
+			sourceTree = "<group>";
+		};
+		7E42B51721DCE58900836916 /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Base(基类)";
+			sourceTree = "<group>";
+		};
+		7E42B51821DCE58900836916 /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		7E42B51921DCE58900836916 /* ModuleX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModuleX;
+			sourceTree = "<group>";
+		};
+		7E42B51A21DCE58900836916 /* Managers(全局管理者) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Managers(全局管理者)";
+			sourceTree = "<group>";
+		};
+		7E42B51B21DCE58900836916 /* Utils(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				7E42B51D21DCE5A800836916 /* dev2mergeMaster */,
+			);
+			path = "Utils(其他)";
+			sourceTree = "<group>";
+		};
+		7E42B51C21DCE58900836916 /* Vendors(依赖的SDk) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vendors(依赖的SDk)";
+			sourceTree = "<group>";
+		};
+		7E42B51D21DCE5A800836916 /* dev2mergeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				7E42B51E21DCE5A800836916 /* dev2MergeMaster.h */,
+				7E42B51F21DCE5A800836916 /* dev2MergeMaster.m */,
 			);
 			path = dev2mergeMaster;
 			sourceTree = "<group>";
@@ -128,7 +195,12 @@
 		7ED6EBB621A553D4005F030A /* YZAFNNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				7E42B51021DCE2D800836916 /* dev2mergeMaster */,
+				7E42B51521DCE58900836916 /* Macros(宏定义头文件) */,
+				7E42B51621DCE58900836916 /* Main(主要功能) */,
+				7E42B51A21DCE58900836916 /* Managers(全局管理者) */,
+				7E42B51421DCE58900836916 /* NetWorks(网络接口) */,
+				7E42B51B21DCE58900836916 /* Utils(其他) */,
+				7E42B51C21DCE58900836916 /* Vendors(依赖的SDk) */,
 				7ED6EBB721A553D4005F030A /* AppDelegate.h */,
 				7ED6EBB821A553D4005F030A /* AppDelegate.m */,
 				7ED6EBBA21A553D4005F030A /* ViewController.h */,
@@ -326,9 +398,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED6EBBC21A553D4005F030A /* ViewController.m in Sources */,
-				7E42B51321DCE2FF00836916 /* dev2MergeMaster.m in Sources */,
 				7ED6EBC721A553D7005F030A /* main.m in Sources */,
 				7ED6EBB921A553D4005F030A /* AppDelegate.m in Sources */,
+				7E42B52021DCE5A800836916 /* dev2MergeMaster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
