@@ -14,8 +14,6 @@
 		7ED6EBC121A553D6005F030A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6EBC021A553D6005F030A /* Assets.xcassets */; };
 		7ED6EBC421A553D6005F030A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6EBC221A553D6005F030A /* LaunchScreen.storyboard */; };
 		7ED6EBC721A553D7005F030A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBC621A553D7005F030A /* main.m */; };
-		7ED6EBD121A553D7005F030A /* YZAFNNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBD021A553D7005F030A /* YZAFNNetworkTests.m */; };
-		7ED6EBDC21A553D7005F030A /* YZAFNNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6EBDB21A553D7005F030A /* YZAFNNetworkUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +46,7 @@
 		7ED6EBC521A553D6005F030A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ED6EBC621A553D7005F030A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7ED6EBCC21A553D7005F030A /* YZAFNNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAFNNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED6EBD021A553D7005F030A /* YZAFNNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAFNNetworkTests.m; sourceTree = "<group>"; };
-		7ED6EBD221A553D7005F030A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ED6EBD721A553D7005F030A /* YZAFNNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAFNNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED6EBDB21A553D7005F030A /* YZAFNNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAFNNetworkUITests.m; sourceTree = "<group>"; };
-		7ED6EBDD21A553D7005F030A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A88C6285CAC2F36C168003F8 /* libPods-YZAFNNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZAFNNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0EC2AB32134F9DC8815ADA /* Pods-YZAFNNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZAFNNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZAFNNetwork/Pods-YZAFNNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				7ED6EBB621A553D4005F030A /* YZAFNNetwork */,
-				7ED6EBCF21A553D7005F030A /* YZAFNNetworkTests */,
-				7ED6EBDA21A553D7005F030A /* YZAFNNetworkUITests */,
 				7ED6EBB521A553D4005F030A /* Products */,
 				F92ECDF09585838FAB152441 /* Pods */,
 				304D0670B989543DE8653629 /* Frameworks */,
@@ -127,24 +119,6 @@
 				7ED6EBC621A553D7005F030A /* main.m */,
 			);
 			path = YZAFNNetwork;
-			sourceTree = "<group>";
-		};
-		7ED6EBCF21A553D7005F030A /* YZAFNNetworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				7ED6EBD021A553D7005F030A /* YZAFNNetworkTests.m */,
-				7ED6EBD221A553D7005F030A /* Info.plist */,
-			);
-			path = YZAFNNetworkTests;
-			sourceTree = "<group>";
-		};
-		7ED6EBDA21A553D7005F030A /* YZAFNNetworkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7ED6EBDB21A553D7005F030A /* YZAFNNetworkUITests.m */,
-				7ED6EBDD21A553D7005F030A /* Info.plist */,
-			);
-			path = YZAFNNetworkUITests;
 			sourceTree = "<group>";
 		};
 		F92ECDF09585838FAB152441 /* Pods */ = {
@@ -322,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED6EBD121A553D7005F030A /* YZAFNNetworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED6EBDC21A553D7005F030A /* YZAFNNetworkUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
